@@ -15,12 +15,18 @@ section h3{
 body, input, textarea{
     font-family: "Parkinsans", cursive;
     font-weight: normal;
+    color: #0a0a0a;
 }
 
 header{
     background-color: #0a0a0a;
     padding: 16px;
     color: #ecf0f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000
 }
 
 header nav li{
@@ -152,3 +158,15 @@ header nav li a:hover {
     filter: brightness(0.8);
 }
 
+.dev{
+    text-align: center;
+}
+
+body{
+    background-color: #747171;
+    padding-top: 64px;
+}
+
+#feedback{
+    background-color: #9c9a9a;
+}
